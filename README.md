@@ -36,14 +36,6 @@
 | scikit-learn TfidfVectorizer Docs | https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html |
 | James Briggs - TF-IDF with Python | https://www.pinecone.io/learn/tf-idf-information-retrieval/ |
 
-### Pydantic (Data Models - Required)
-
-| Resource | Link |
-|----------|------|
-| Pydantic v2 Official Docs - Learn | https://docs.pydantic.dev/latest/learn/ |
-| Pydantic BaseModel Tutorial | https://docs.pydantic.dev/latest/concepts/models/ |
-| Pydantic Field Docs | https://docs.pydantic.dev/latest/concepts/fields/ |
-
 ### Hugging Face Transformers (Qwen3-0.6B)
 
 | Resource | Link |
@@ -68,14 +60,6 @@
 |----------|------|
 | tqdm Official Docs | https://tqdm.github.io/ |
 | tqdm GitHub | https://github.com/tqdm/tqdm |
-
-### uv (Package Manager - Required)
-
-| Resource | Link |
-|----------|------|
-| uv Official Docs | https://docs.astral.sh/uv/ |
-| uv Getting Started | https://docs.astral.sh/uv/getting-started/ |
-| uv pyproject.toml Guide | https://docs.astral.sh/uv/concepts/projects/ |
 
 ---
 
