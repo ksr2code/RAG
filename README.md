@@ -1,42 +1,41 @@
-# RAG Learning Resources
+## Resources
 
-## 1. RAG & Information Retrieval Concepts
+### 1. RAG & Information Retrieval
 
-### YouTube Videos
+#### Videos
 
 | Topic | Link |
 |-------|------|
-| 3Blue1Brown - Attention in Transformers, Visually Explained | https://www.youtube.com/watch?v=eMlx5fFNoYw |
-| Andrej Karpathy - Let's build GPT: from scratch | https://www.youtube.com/watch?v=kCc8FmEb1nY |
-| Andrej Karpathy - Intro to Large Language Models | https://www.youtube.com/watch?v=zjkBMFhNj_g |
-| James Briggs - BM25 Explained: Best Matching Algorithm for Search | https://www.youtube.com/watch?v=He08gVBH0LE |
-| James Briggs - RAG Fundamentals | https://www.youtube.com/watch?v=wd7TZaXJMro |
-| Fireship - RAG: Retrieval-Augmented Generation in 100 Seconds | https://www.youtube.com/watch?v=T-D1KVIuvjA |
+| James Briggs — RAG Fundamentals (47 min) | https://www.youtube.com/watch?v=Qh8wK9uJ-D8 |
+| Andrej Karpathy — Intro to Large Language Models (1h) | https://www.youtube.com/watch?v=zjkBMFhNj_g |
+| Andrej Karpathy — Let's Build GPT from Scratch (2h) | https://www.youtube.com/watch?v=kCc8FmEb1nY |
+| 3Blue1Brown — Attention in Transformers, Step by Step | https://www.youtube.com/watch?v=eMlx5fFNoYc |
 
-### Articles & Docs
+#### Articles & Books
 
 | Topic | Link |
 |-------|------|
 | TF-IDF (Wikipedia) | https://en.wikipedia.org/wiki/Tf%E2%80%93idf |
 | BM25 / Okapi BM25 (Wikipedia) | https://en.wikipedia.org/wiki/Okapi_BM25 |
-| LangChain - RAG Tutorial | https://python.langchain.com/docs/tutorials/rag/ |
-| Pinecone - What is RAG? | https://www.pinecone.io/learn/retrieval-augmented-generation/ |
-| Manning - Introduction to Information Retrieval (Free Online Book) | https://nlp.stanford.edu/IR-book/ |
+| Pinecone — What is RAG? | https://www.pinecone.io/learn/retrieval-augmented-generation/ |
+| LangChain — RAG Tutorial | https://python.langchain.com/docs/tutorials/rag/ |
+| Manning — Introduction to Information Retrieval (Free Book) | https://nlp.stanford.edu/IR-book/ |
 
 ---
 
-## 2. Required Libraries (Per Subject)
-
-### BM25 / TF-IDF
+### 2. BM25 / TF-IDF Libraries
 
 | Resource | Link |
 |----------|------|
-| bm25s - Fast BM25 in Python (GitHub) | https://github.com/xhluca/bm25s |
-| bm25s - PyPI | https://pypi.org/project/bm25s/ |
+| bm25s — Fast BM25 in Python (GitHub) | https://github.com/xhluca/bm25s |
+| bm25s — PyPI | https://pypi.org/project/bm25s/ |
 | scikit-learn TfidfVectorizer Docs | https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html |
-| James Briggs - TF-IDF with Python | https://www.pinecone.io/learn/tf-idf-information-retrieval/ |
+| YouTube — A No Nonsense Intro to BM25 | https://www.youtube.com/watch?v=TW9vHU1GpU4 |
+| YouTube — BM25s Deep Dive (covers the library directly) | https://www.youtube.com/watch?v=8NotAv1EY4Q |
 
-### Hugging Face Transformers (Qwen3-0.6B)
+---
+
+### 3. LLM — HuggingFace Transformers (Qwen3-0.6B)
 
 | Resource | Link |
 |----------|------|
@@ -46,15 +45,38 @@
 | AutoTokenizer Docs | https://huggingface.co/docs/transformers/model_doc/auto#transformers.AutoTokenizer |
 | Generation Strategies (blog) | https://huggingface.co/blog/how-to-generate |
 
-### Python Fire (CLI - Required)
+---
+
+### 4. Data Validation — Pydantic v2
+
+| Resource | Link |
+|----------|------|
+| Pydantic v2 Official Docs | https://docs.pydantic.dev/latest/ |
+| Pydantic — Models Concepts | https://docs.pydantic.dev/latest/concepts/models/ |
+| Pydantic — Fields & Validators | https://docs.pydantic.dev/latest/concepts/fields/ |
+
+---
+
+### 5. Package & Project Management — uv
+
+| Resource | Link |
+|----------|------|
+| uv Official Docs (Astral) | https://docs.astral.sh/uv/ |
+| uv Installation Guide | https://docs.astral.sh/uv/getting-started/installation/ |
+
+---
+
+### 6. CLI — Python Fire
 
 | Resource | Link |
 |----------|------|
 | Python Fire GitHub | https://github.com/google/python-fire |
-| Python Fire Guide & Docs | https://github.com/google/python-fire/blob/master/docs/guide.md |
+| Python Fire Guide | https://github.com/google/python-fire/blob/master/docs/guide.md |
 | Python Fire Using a CLI | https://github.com/google/python-fire/blob/master/docs/using-cli.md |
 
-### tqdm (Progress Bars - Required)
+---
+
+### 7. Progress Bars — tqdm
 
 | Resource | Link |
 |----------|------|
@@ -63,35 +85,59 @@
 
 ---
 
-## 3. Chunking Strategies
-
-### Python Code Chunking (AST-based)
+### 8. Code Quality — mypy & flake8
 
 | Resource | Link |
 |----------|------|
-| Python `ast` Module Docs | https://docs.python.org/3/library/ast.html |
-| Green Tree Snakes - AST Tutorial | https://greentreesnakes.readthedocs.io/ |
-| Real Python - Understanding the AST | https://realpython.com/abstract-syntax-tree-python/ |
+| mypy Official Docs | https://mypy.readthedocs.io |
+| mypy Homepage | https://mypy-lang.org |
+| flake8 Official Docs | https://flake8.pycqa.org/en/latest/ |
+| PEP 484 — Type Hints | https://peps.python.org/pep-0484/ |
+| PEP 257 — Docstring Conventions | https://peps.python.org/pep-0257/ |
 
-### Text / Markdown Chunking
+---
+
+### 9. Chunking Strategies
+
+#### Python Code Chunking (AST-based)
+
+| Resource | Link |
+|----------|------|
+| Python ast Module — Official Docs | https://docs.python.org/3/library/ast.html |
+| Green Tree Snakes — AST Field Guide | https://greentreesnakes.readthedocs.io/ |
+
+#### Text / Markdown Chunking
 
 | Resource | Link |
 |----------|------|
 | LangChain Text Splitters Docs | https://python.langchain.com/docs/concepts/text_splitters/ |
-| RecursiveCharacterTextSplitter | https://python.langchain.com/docs/how_to/recursive_text_splitter/ |
+| How to Recursively Split Text by Characters | https://python.langchain.com/docs/how_to/recursive_text_splitter/ |
 
 ---
 
-## 4. Evaluation Metrics
+### 10. Evaluation Metrics
 
 | Resource | Link |
 |----------|------|
-| Recall@k Explained (Pinecone) | https://www.pinecone.io/learn/offline-evaluation/ |
-| BEIR Benchmark - Information Retrieval Metrics | https://arxiv.org/abs/2104.08663 |
+| Recall@k Explained (Milvus) | https://milvus.io/ai-quick-reference/what-is-recallatk |
+| Weaviate — IR Evaluation Metrics (Recall, Precision, MRR, NDCG) | https://weaviate.io/blog/retrieval-evaluation-metrics |
+| Pinecone — Evaluation Measures in IR (MAP, Recall@k) | https://www.pinecone.io/learn/offline-evaluation/ |
+| BEIR Benchmark Paper (arXiv) | https://arxiv.org/abs/2104.08663 |
 
 ---
 
-## 5. YouTube Channels (General Reference)
+### 11. Optional / Bonus — ChromaDB & DSPy
+
+| Resource | Link |
+|----------|------|
+| ChromaDB — Getting Started | https://docs.trychroma.com/docs/overview/getting-started |
+| ChromaDB — PyPI | https://pypi.org/project/chromadb/ |
+| DSPy — Official Docs | https://dspy.ai/ |
+| DSPy — GitHub (Stanford NLP) | https://github.com/stanfordnlp/dspy |
+
+---
+
+### 12. YouTube Channels
 
 | Channel | Focus | Link |
 |---------|-------|------|
@@ -100,20 +146,3 @@
 | 3Blue1Brown | Math & ML visualizations | https://www.youtube.com/@3blue1brown |
 | Fireship | Quick tech overviews | https://www.youtube.com/@Fireship |
 | StatQuest with Josh Starmer | Statistics & ML fundamentals | https://www.youtube.com/@statquest |
-
----
-
-## 6. Project pre discovery steps
-
-```
-Day 1: BM25 / TF-IDF (Wikipedia + James Briggs BM25 video)
-       + Pydantic quickstart docs
-
-Day 2: HuggingFace Transformers quickstart
-       + Load Qwen3-0.6B locally, try a simple prompt
-
-Day 3: Python ast module + chunking strategies
-       + Python Fire README + tqdm examples
-
-Day 4: Start coding
-```
